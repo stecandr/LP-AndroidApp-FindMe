@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">FindMe</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FindMe</string>
+    <string name="bienvenido">Bienvenido a FindMe,</string>
+    <string name="correo">Correo Electrónico:</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="contra">Contraseña:</string>
+    <string name="confir">Confirme Contraseña:</string>
+    <string name="primera">Por ser la primera ejecución de la aplicacion, por favor ingrese los datos que se piden a continuación.</string>
+    <string name="descripcion">Activar/Desactivar</string>
+    <string name="config">Configurar</string>
+    <string name="acerca">Acerca de&#8230;</string>
+    <string name="txtpulsa">&gt;Pulsa el botón para iniciar la aplicación&lt;</string>
+    <string name="regresar">Regresar</string>
+    <string name="acercade">FindMe versión 1.0</string>
+    <string name="savechange">Guardar cambios</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="versionyear">2012</string>
+    <string name="oldpswrd">Contraseña anterior</string>
+    <string name="newpswrd">Contraseña nueva</string>
+    <string name="confirmnewpswrd">Confirme nueva contraseña</string>
+
+</resources>

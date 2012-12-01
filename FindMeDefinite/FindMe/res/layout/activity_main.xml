@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/findmebg"
+    android1:gravity="center_horizontal" >
+
+    <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginLeft="15dp"
+        android1:layout_marginRight="15dp"
+        android1:layout_marginTop="5dp"
+        android1:text="@string/bienvenido"
+        android1:textColor="#ffffff"
+        android1:textSize="@dimen/tam15"
+        android1:textStyle="bold" />
+
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/textView1"
+        android1:layout_marginLeft="15dp"
+        android1:layout_marginRight="15dp"
+        android1:layout_marginTop="90dp"
+        android1:text="@string/correo"
+        android1:textColor="#ffffff"
+        android1:textSize="@dimen/tam15"
+        android1:textStyle="bold" />
+
+    <Button
+        android1:id="@+id/btnfin"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginBottom="80dp"
+        android1:onClick="continuar"
+        android1:text="@string/finalizar"
+        android1:textColor="#ffffff"
+        android1:textSize="18sp"
+        android1:textStyle="normal|bold" />
+
+    <TextView
+        android1:id="@+id/textView5"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/textView1"
+        android1:layout_marginLeft="15dp"
+        android1:layout_marginRight="15dp"
+        android1:layout_marginTop="7dp"
+        android1:text="@string/primera"
+        android1:textColor="#ffffff"
+        android1:textSize="@dimen/tam15"
+        android1:textStyle="bold" />
+
+    <EditText
+        android1:id="@+id/eTEmail"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/textView2"
+        android1:layout_below="@+id/textView2"
+        android1:background="#ffffff"
+        android1:ems="10"
+        android1:inputType="textEmailAddress"
+        android1:textColor="#000000" />
+
+    <TextView
+        android1:id="@+id/textView4"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/btnfin"
+        android1:layout_alignLeft="@+id/eTEmail"
+        android1:layout_marginBottom="75dp"
+        android1:text="@string/confir"
+        android1:textColor="#ffffff"
+        android1:textSize="@dimen/tam15"
+        android1:textStyle="bold" />
+
+    <EditText
+        android1:id="@+id/eTPswrd"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/textView4"
+        android1:layout_alignLeft="@+id/textView4"
+        android1:layout_marginBottom="22dp"
+        android1:background="#ffffff"
+        android1:ems="10"
+        android1:inputType="textPassword"
+        android1:textColor="#000000" />
+
+    <TextView
+        android1:id="@+id/textView3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/eTPswrd"
+        android1:layout_alignLeft="@+id/eTPswrd"
+        android1:text="@string/contra"
+        android1:textColor="#ffffff"
+        android1:textSize="@dimen/tam15"
+        android1:textStyle="bold" />
+
+    <EditText
+        android1:id="@+id/eTPswrdC"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/textView4"
+        android1:layout_alignTop="@+id/textView4"
+        android1:layout_marginTop="18dp"
+        android1:background="#ffffff"
+        android1:ems="10"
+        android1:inputType="textPassword"
+        android1:textColor="#000000" />
+
+</RelativeLayout>
